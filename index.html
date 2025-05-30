@@ -18,52 +18,65 @@
   </head>
 
   <body class="body">
+    <!-- header -->
     <header class="main-header">
-      <div class="header-styles container">
-        <nav class="main-nav">
-          <a class="logo-header" href="./index.html"
-            >Web<span class="logo-span">Studio</span></a
-          >
-          <ul class="menu-list">
-            <li class="menu-item">
-              <a class="nav-link nav-link-actyv" href="./index.html">Studio</a>
-            </li>
-            <li class="menu-item">
-              <a class="nav-link" href="">Portfolio</a>
-            </li>
-            <li class="menu-item">
-              <a class="nav-link" href="">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <address>
-          <ul class="contact-info">
-            <li>
-              <a
-                href="mailto:info@devstudio.com"
-                target="_blank"
-                class="contact-link"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+110001111111" class="contact-link"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
+      <div class="container">
+        <a class="logo-header" href="./index.html"
+          >Web<span class="logo-span">Studio</span></a
+        >
+        <button class="mobile-menu-btn" type="button">
+          <svg class="mobile-menu-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-hero_menu"></use>
+          </svg>
+        </button>
+
+        <!-- wrapper -->
+        <div class="content-wrapper">
+          <nav class="main-nav">
+            <ul class="menu-list list">
+              <li class="menu-item">
+                <a class="nav-link nav-link-actyv" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="menu-item">
+                <a class="nav-link" href="">Portfolio</a>
+              </li>
+              <li class="menu-item">
+                <a class="nav-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address>
+            <ul class="contact-info">
+              <li>
+                <a
+                  href="mailto:info@devstudio.com"
+                  target="_blank"
+                  class="contact-link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+110001111111" class="contact-link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </header>
 
     <main>
-      <section class="section-button">
+      <!-- <section class="section-button">
         <div class="container">
           <h1 class="button-title">Effective Solutions for Your Business</h1>
           <button type="button" class="button">Order Service</button>
         </div>
-      </section>
-      <section class="section-features">
+      </section> -->
+
+      <!-- <section class="section-features">
         <div class="container">
           <h2 class="features-titel visually-hidden">Features</h2>
           <ul class="features-list">
@@ -117,13 +130,18 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="section-our-team">
+      </section> -->
+
+      <!-- <section class="section-our-team">
         <div class="container">
           <h2 class="our-team">Our Team</h2>
           <ul class="our-team-list">
             <li class="our-team-item">
-              <img src="./images/img.jpg" alt="Mark Guerrero" width="264" />
+              <img
+                src="./images/desktop/img.jpg"
+                alt="Mark Guerrero"
+                width="264"
+              />
               <div class="our-team-content">
                 <h3 class="our-team-post">Mark Guerrero</h3>
                 <p class="our-team-text">Product Designer</p>
@@ -180,7 +198,11 @@
               </div>
             </li>
             <li class="our-team-item">
-              <img src="./images/img(1).jpg" alt="Tom Ford" width="264" />
+              <img
+                src="./images/desktop/img(1).jpg"
+                alt="Tom Ford"
+                width="264"
+              />
               <div class="our-team-content">
                 <h3 class="our-team-post">Tom Ford</h3>
                 <p class="our-team-text">Frontend Developer</p>
@@ -237,7 +259,11 @@
               </div>
             </li>
             <li class="our-team-item">
-              <img src="./images/img(2).jpg" alt="Camila Garcia" width="264" />
+              <img
+                src="./images/desktop/img(2).jpg"
+                alt="Camila Garcia"
+                width="264"
+              />
               <div class="our-team-content">
                 <h3 class="our-team-post">Camila Garcia</h3>
                 <p class="our-team-text">Marketing</p>
@@ -294,7 +320,11 @@
               </div>
             </li>
             <li class="our-team-item">
-              <img src="./images/img(3).jpg" alt="Daniel Wilson" width="264" />
+              <img
+                src="./images/desktop/img(3).jpg"
+                alt="Daniel Wilson"
+                width="264"
+              />
               <div class="our-team-content">
                 <h3 class="our-team-post">Daniel Wilson</h3>
                 <p class="our-team-text">UI Designer</p>
@@ -352,15 +382,16 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="section-our-portfolio">
+      </section> -->
+
+      <!-- <section class="section-our-portfolio">
         <div class="container">
           <h2 class="our-portfolio-title">Our Portfolio</h2>
           <ul class="our-portfolio-list">
             <li class="our-portfolio-item">
               <div class="portfolio-thumb">
                 <img
-                  src="./images/BankingApp.jpg"
+                  src="./images/desktop/BankingApp.jpg"
                   alt="Banking App"
                   width="360"
                   height="300"
@@ -379,7 +410,7 @@
             <li class="our-portfolio-item">
               <div class="portfolio-thumb">
                 <img
-                  src="./images/CashlessPayment.jpg"
+                  src="./images/desktop/CashlessPayment.jpg"
                   alt="Cashless Payment"
                   width="360"
                   height="300"
@@ -398,7 +429,7 @@
             <li class="our-portfolio-item">
               <div class="portfolio-thumb">
                 <img
-                  src="./images/MeditationApp.jpg"
+                  src="./images/desktop/MeditationApp.jpg"
                   alt="Meditation App"
                   width="360"
                   height="300"
@@ -417,7 +448,7 @@
             <li class="our-portfolio-item">
               <div class="portfolio-thumb">
                 <img
-                  src="./images/TaxiService.jpg"
+                  src="./images/desktop/TaxiService.jpg"
                   alt="Taxi Service"
                   width="360"
                   height="300"
@@ -436,7 +467,7 @@
             <li class="our-portfolio-item">
               <div class="portfolio-thumb">
                 <img
-                  src="./images/ScreenIllustration.jpg"
+                  src="./images/desktop/ScreenIllustration.jpg"
                   alt="Screen Illustration"
                   width="360"
                   height="300"
@@ -455,7 +486,7 @@
             <li class="our-portfolio-item">
               <div class="portfolio-thumb">
                 <img
-                  src="./images/OnlineCourses.jpg"
+                  src="./images/desktop/OnlineCourses.jpg"
                   alt="Online Courses"
                   width="360"
                   height="300"
@@ -473,9 +504,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
-    <footer class="footer">
+
+    <!-- <footer class="footer">
       <div class="container foter-content">
         <div class="footer-description">
           <a href="./index.html" class="footer-logo"
@@ -558,10 +590,10 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <!-- model window -->
-    <div class="is-open model">
+    <!-- <div class="is-hidden model">
       <div class="model-window">
         <button type="button" class="button-model" aria-label="Close modal">
           <svg class="model-social-icon" width="8" height="8">
@@ -645,6 +677,6 @@
           <button type="submit" class="send-link">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>
